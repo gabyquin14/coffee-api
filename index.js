@@ -3,7 +3,7 @@ const cors = require("cors");
 const app = express();
 
 const corsOptions = {
-  origin: "https://coffee-api-gabyquin14.onrender.com",
+  origin: "http://localhost:3000",
   credentials: true,
   optionSuccessStatus: 200,
 };
@@ -118,5 +118,5 @@ app.get("/api/coffees/:id", (request, response) => {
   else response.send(coffee);
 });
 
-const port = process.env.port || 8080;
+const port = process.env.port || 3000;
 app.listen(port, () => console.log(`Listening to port ${port}`));
