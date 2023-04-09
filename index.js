@@ -110,5 +110,5 @@ app.get("/api/coffees/:id", (request, response) => {
   else response.send(coffee);
 });
 
-const port = process.env.port || 3000;
+const port = process.env.port || 8080;
 app.listen(port, () => console.log(`Listening to port ${port}`));
