@@ -3,7 +3,7 @@ const cors = require("cors");
 const app = express();
 
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://coffee-api-gabyquin14.onrender.com",
   credentials: true,
   optionSuccessStatus: 200,
 };
