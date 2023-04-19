@@ -16,15 +16,15 @@ app.use(express.json());
 
 const coffees = [
   {
-    id: 1,
+    id: "price_1MyNiJC9PWsDk3eWaxR0e91G",
     name: "Black",
     image: "https://i.ibb.co/wJF4kW0/black.jpg",
-    ingredients: ["Coffee"],
+    ingredients: ["Coffee", "Water"],
     description: "Coffee with nothing added – no cream, no milk, no sweetener",
     price: 3,
   },
   {
-    id: 2,
+    id: "price_1MyNjDC9PWsDk3eWvm3vNRfm",
     name: "Latte",
     image: "https://i.ibb.co/zbpBYkG/latte.jpg",
     ingredients: ["Espresso", "Steamed milk"],
@@ -33,7 +33,7 @@ const coffees = [
     price: 8,
   },
   {
-    id: 3,
+    id: "price_1MyNjZC9PWsDk3eWWiSh0v8M",
     name: "Cappucino",
     image: "https://i.ibb.co/ZNdX9hP/cappuccino.jpg",
     ingredients: ["Espresso", "Steamed milk", "Foam"],
@@ -42,7 +42,7 @@ const coffees = [
     price: 6,
   },
   {
-    id: 4,
+    id: "price_1MyNjuC9PWsDk3eWic6IcrQc",
     name: "Americano",
     image: "https://i.ibb.co/RDHhLv8/americano.jpg",
     ingredients: ["Espresso", "Hot water"],
@@ -51,7 +51,7 @@ const coffees = [
     price: 6,
   },
   {
-    id: 5,
+    id: "price_1MyNkBC9PWsDk3eWpz3r4Y3U",
     name: "Mocha",
     image: "https://i.ibb.co/0KrdMN2/mocha.jpg",
     ingredients: ["Espresso", "Chocolate", "Steamed milk"],
@@ -60,7 +60,7 @@ const coffees = [
     price: 10,
   },
   {
-    id: 6,
+    id: "price_1MyNkPC9PWsDk3eW8noLYTWW",
     name: "Irish",
     image: "https://i.ibb.co/WxDcC90/irish.jpg",
     ingredients: ["Coffee", "Whiskey", "Sugar", "Cream"],
@@ -69,7 +69,7 @@ const coffees = [
     price: 12,
   },
   {
-    id: 7,
+    id: "price_1MyNkmC9PWsDk3eW1lGjZsnQ",
     name: "Affogato",
     image: "https://i.ibb.co/thR0qBb/affogato.jpg",
     ingredients: ["Espresso", "Ice cream"],
@@ -78,7 +78,7 @@ const coffees = [
     price: 5,
   },
   {
-    id: 8,
+    id: "price_1MyNlDC9PWsDk3eWBtE1xx60",
     name: "Espresso",
     image: "https://i.ibb.co/N3D7N3Z/espresso.jpg",
     ingredients: ["1oz Espresso"],
@@ -87,7 +87,7 @@ const coffees = [
     price: 4,
   },
   {
-    id: 9,
+    id: "price_1MyNlUC9PWsDk3eWrrIoSASD",
     name: "Macchiato",
     image: "https://i.ibb.co/k1w94yk/macchiato.jpg",
     ingredients: ["Espresso shot", "Foam"],
@@ -96,7 +96,7 @@ const coffees = [
     price: 8,
   },
   {
-    id: 10,
+    id: "price_1MyNliC9PWsDk3eWti5qnqZR",
     name: "Flat white",
     image: "https://i.ibb.co/WHhMVdW/flat-white.jpg",
     ingredients: ["Espresso", "Steamed milk"],
