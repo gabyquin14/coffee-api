@@ -114,9 +114,7 @@ app.get("/api/coffees", (request, response) => {
   response.send(coffees);
 });
 app.get("/api/coffees/:id", (request, response) => {
-  const coffee = coffees.find(
-    (coffee) => coffee.id === parseInt(request.params.id)
-  );
+  const coffee = coffees.find((coffee) => coffee.id === request.params.id);
   if (!coffee) return response.status(404).send("No coffee with that id");
   else response.send(coffee);
 });
