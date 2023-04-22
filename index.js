@@ -118,7 +118,7 @@ app.get("/api/coffees/:id", (request, response) => {
   if (!coffee) return response.status(404).send("No coffee with that id");
   else response.send(coffee);
 });
-app.get("/api/coffees/:name", (request, response) => {
+app.get("/api/coffees/name/:name", (request, response) => {
   const coffee = coffees.find((coffee) => coffee.name === request.params.name);
   if (!coffee) return response.status(404).send("No coffee with that name");
   else response.send(coffee);
